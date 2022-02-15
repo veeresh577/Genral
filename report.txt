@@ -1,0 +1,22 @@
+Action
+TC description
+command --> Command
+--------------------------------------------------------------------------------
+INFO
+Scan specific ports or scan entire port ranges
+ on a local or remote server
+command --> nmap localhost
+--------------------------------------------------------------------------------
+INFO
+Disabling DNS name resolution
+[to speed up your scans a little bit, you can always choose to disable reverse DNS resolution for all your scans]
+command --> nmap -n localhost
+--------------------------------------------------------------------------------
+INFO
+Scan + OS and service detection with fast execution
+command --> nmap -A -T4 localhost
+--------------------------------------------------------------------------------
+INFO
+Detect service/daemon versions
+command --> nmap -sV localhost
+--------------------------------------------------------------------------------

@@ -1,0 +1,426 @@
+data=
+{"jsonrpc": "2.0","id": 1,
+  "result" {
+    "accounts": {
+      "accounts": [
+        {
+          "id": 1002975
+        },
+        {
+          "id": {
+            "id": 1002975
+          },
+          "fullName": "Kenny Root",
+          "preferredEmail": "kroot@android.com"
+        },
+        {
+          "id": 1012384
+        },
+        {
+          "id": {
+            "id": 1012384
+          },
+          "fullName": "Yury Zhauniarovich",
+          "preferredEmail": "y.zhalnerovich@gmail.com"
+        },
+        ...
+      ]
+    },
+    "allowsAnonymous": true,
+    "canAbandon": false,
+    "canEditCommitMessage": false,
+    "canPublish": false,
+    "canRebase": false,
+    "canRestore": false,
+    "canRevert": false,
+    "canDeleteDraft": false,
+    "change": {
+      "changeId": {
+        "id": 36522
+      },
+      "changeKey": {
+        "id": "Id003aa38c17d644357873c41a8f5ec455e46a4b7"
+      },
+      "rowVersion": 0,
+      "createdOn": "2012-05-12 16:52:47.689000000",
+      "lastUpdatedOn": "2013-02-04 19:21:31.749000000",
+      "sortKey": "0022e36900008eaa",
+      "owner": {
+        "id": 1012384
+      },
+      "dest": {
+        "projectName": {
+          "name": "platform\/frameworks\/base"
+        },
+        "branchName": "refs\/heads\/master"
+      },
+      "open": false,
+      "status": "M",
+      "currentPatchSetId": 4,
+      "subject": "Function uri.getAuthority is called twice. Minor doc corrections.",
+      "mergeable": true
+    },
+    "starred": false,
+    "dependsOn": [],
+    "neededBy": [],
+    "patchSets": [
+      {
+        "id": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 1
+        },
+        "revision": {
+          "id": "8e19d83260d8a7d275550b349be7a7d938f0943f"
+        },
+        "uploader": {
+          "id": 1012384
+        },
+        "createdOn": "2012-05-12 16:52:47.689000000",
+        "draft": false
+      },
+      {
+        "id": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 2
+        },
+        "revision": {
+          "id": "3c62a8f7425357f5fc5f95dd161f563ae74c2572"
+        },
+        "uploader": {
+          "id": 1012384
+        },
+        "createdOn": "2012-09-13 11:24:39.590000000",
+        "draft": false
+      },
+      {
+        "id": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 3
+        },
+        "revision": {
+          "id": "75efaafd578e8f48f7686ffcf88edb5e15d3b8cf"
+        },
+        "uploader": {
+          "id": 1012384
+        },
+        "createdOn": "2012-11-29 10:14:30.004000000",
+        "draft": false
+      },
+      {
+        "id": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 4
+        },
+        "revision": {
+          "id": "f9c5176a51a49fea18712338429b4d125e550a4a"
+        },
+        "uploader": {
+          "id": 1012384
+        },
+        "createdOn": "2013-02-03 16:14:13.903000000",
+        "draft": false
+      }
+    ],
+    "approvals": [
+      {
+        "account": {
+          "id": 1012384
+        },
+        "approvals": [],
+        "canRemove": false,
+        "votable": [
+          "Code-Review"
+        ]
+      },
+      {
+        "account": {
+          "id": 1003425
+        },
+        "approvals": [
+          {
+            "key": {
+              "patchSetId": {
+                "changeId": {
+                  "id": 36522
+                },
+                "patchSetId": 4
+              },
+              "accountId": {
+                "id": 1003425
+              },
+              "categoryId": {
+                "id": "CRVW"
+              }
+            },
+            "value": 1,
+            "granted": "2013-02-04 18:57:47.583000000",
+            "changeOpen": false,
+            "changeSortKey": "0022e36900008eaa"
+          }
+        ],
+        "canRemove": false,
+        "votable": [
+          "Code-Review",
+          "Verified"
+        ]
+      },
+      {
+        "account": {
+          "id": 1002975
+        },
+        "approvals": [
+          {
+            "key": {
+              "patchSetId": {
+                "changeId": {
+                  "id": 36522
+                },
+                "patchSetId": 4
+              },
+              "accountId": {
+                "id": 1002975
+              },
+              "categoryId": {
+                "id": "CRVW"
+              }
+            },
+            "value": 2,
+            "granted": "2013-02-04 19:19:13.182000000",
+            "changeOpen": false,
+            "changeSortKey": "0022e36900008eaa"
+          },
+          {
+            "key": {
+              "patchSetId": {
+                "changeId": {
+                  "id": 36522
+                },
+                "patchSetId": 4
+              },
+              "accountId": {
+                "id": 1002975
+              },
+              "categoryId": {
+                "id": "SUBM"
+              }
+            },
+            "value": 1,
+            "granted": "2013-02-04 19:21:25.933000000",
+            "changeOpen": false,
+            "changeSortKey": "0022e36900008eaa"
+          },
+          {
+            "key": {
+              "patchSetId": {
+                "changeId": {
+                  "id": 36522
+                },
+                "patchSetId": 4
+              },
+              "accountId": {
+                "id": 1002975
+              },
+              "categoryId": {
+                "id": "VRIF"
+              }
+            },
+            "value": 1,
+            "granted": "2013-02-04 19:21:25.584000000",
+            "changeOpen": false,
+            "changeSortKey": "0022e36900008eaa"
+          }
+        ],
+        "canRemove": false,
+        "votable": [
+          "Code-Review",
+          "Verified"
+        ]
+      },
+      {
+        "account": {
+          "id": 1006433
+        },
+        "approvals": [
+        ],
+        "canRemove": false,
+        "votable": [
+          "Code-Review",
+          "Verified"
+        ]
+      }
+    ],
+    "submitRecords": [
+      {
+        "status": "OK",
+        "labels": [
+          {
+            "label": "Code-Review",
+            "status": "OK",
+            "appliedBy": {
+              "id": 1002975
+            }
+          },
+          {
+            "label": "Verified",
+            "status": "OK",
+            "appliedBy": {
+              "id": 1002975
+            }
+          }
+        ]
+      }
+    ],
+    "submitTypeRecord": {
+      "status": "OK",
+      "type": "MERGE_ALWAYS"
+    },
+    "canSubmit": false,
+    "messages": [
+      {
+        "key": {
+          "changeId": {
+            "id": 36522
+          },
+          "uuid": "AAAGbH\/\/\/6I="
+        },
+        "author": {
+          "id": 1000660
+        },
+        "writtenOn": "2012-06-08 18:54:01.895000000",
+        "message": "Patch Set 1: Verified\n\n(2 inline comments)\n\nMerges with minor conflict, builds fine. Untested.",
+        "patchset": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 1
+        }
+      },
+      {
+        "key": {
+          "changeId": {
+            "id": 36522
+          },
+          "uuid": "AAAJEH\/\/\/\/w="
+        },
+        "author": {
+          "id": 1012384
+        },
+        "writtenOn": "2012-09-13 11:24:39.590000000",
+        "message": "Uploaded patch set 2.",
+        "patchset": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 2
+        }
+      },
+      ...
+    ],
+    "currentPatchSetId": {
+      "changeId": {
+        "id": 36522
+      },
+      "patchSetId": 4
+    },
+    "currentDetail": {
+      "patchSet": {
+        "id": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 4
+        },
+        "revision": {
+          "id": "f9c5176a51a49fea18712338429b4d125e550a4a"
+        },
+        "uploader": {
+          "id": 1012384
+        },
+        "createdOn": "2013-02-03 16:14:13.903000000",
+        "draft": false
+      },
+      "info": {
+        "key": {
+          "changeId": {
+            "id": 36522
+          },
+          "patchSetId": 4
+        },
+        "subject": "Function uri.getAuthority is called twice. Minor doc corrections.",
+        "message": "Function uri.getAuthority is called twice. Minor doc corrections.\n\nFunction uri.getAuthority was called twice in methods acquireProvider\nand acquireExistingProvider was called twice although a parameter\nrepresenting the value had existed. The second call to the function is\nchanged to the parameter. The parameter's modifier changed to final.\nMinor corrections in function descriptions in the file.\n\nSigned-off-by: Yury Zhauniarovich <y.zhalnerovich@gmail.com>\nChange-Id: Id003aa38c17d644357873c41a8f5ec455e46a4b7\n",
+        "author": {
+          "name": "Yury Zhauniarovich",
+          "email": "y.zhalnerovich@gmail.com",
+          "when": "2012-05-12 16:39:25.000000000",
+          "tz": 120,
+          "accountId": {
+            "id": 1012384
+          }
+        },
+        "committer": {
+          "name": "Gerrit Code Review",
+          "email": "noreply-gerritcodereview@google.com",
+          "when": "2013-02-03 16:14:11.000000000",
+          "tz": 0
+        },
+        "parents": [
+          {
+            "id": {
+              "id": "7ad885e2e6c845dbec4f16cd71e859240741dbf9"
+            },
+            "shortMessage": "Merge \"One more fix for incorrect indices.\""
+          }
+        ],
+        "revId": "f9c5176a51a49fea18712338429b4d125e550a4a"
+      },
+      "patches": [
+        {
+          "key": {
+            "patchSetId": {
+              "changeId": {
+                "id": 36522
+              },
+              "patchSetId": 4
+            },
+            "fileName": "\/COMMIT_MSG"
+          },
+          "changeType": "A",
+          "patchType": "U",
+          "nbrComments": 0,
+          "nbrDrafts": 0,
+          "insertions": 16,
+          "deletions": 0,
+          "reviewedByCurrentUser": false
+        },
+        {
+          "key": {
+            "patchSetId": {
+              "changeId": {
+                "id": 36522
+              },
+              "patchSetId": 4
+            },
+            "fileName": "core\/java\/android\/content\/ContentResolver.java"
+          },
+          "changeType": "M",
+          "patchType": "U",
+          "nbrComments": 0,
+          "nbrDrafts": 0,
+          "insertions": 5,
+          "deletions": 5,
+          "reviewedByCurrentUser": false
+        }
+      ]
+    },
+    "canEdit": true,
+    "canEditTopicName": false
+  }
+}
